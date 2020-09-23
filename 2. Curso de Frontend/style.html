@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        margin: 0;
+    }
+    p:first-child, p:last-child{
+        color: brown;
+    }
+
+    p:nth-child(2n) {
+        background-color: darkcyan;
+    }
+    p::first-letter{
+        color: tomato;
+        font-size: 30px;
+    }
+    ul li {
+        color: blue;
+        }
+
+    ul li:last-child {
+        border: 1px solid red;
+        color: red;
+        width: 100px;
+        height: 40px;
+        padding: 10px;
+        border: 2px solid green;
+        box-sizing:border-box;
+        }
+</style>
+<body>
+    <p>Hola Mundo</p>
+    <p>Hola 2</p>
+    <p>Coming</p>
+    <p>now
+        is time
+    </p>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3
+            <ul>
+                <li>Item 3.1</li>
+                <li>Item 3.2</li>
+                <li>Item 3.3</li>
+            </ul>
+        </li>
+    </ul>
+
+</body>
+</html>
